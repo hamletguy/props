@@ -38,7 +38,7 @@ Profile.defaultProps = {
   },
   handelName: (x) => console.log(`hello ${x}`),
 };
-Profile.PropTypes = {
+Profile.propTypes = {
   profile: PropTypes.object.isRequired,
   handelName: PropTypes.object.isRequired,
 };
